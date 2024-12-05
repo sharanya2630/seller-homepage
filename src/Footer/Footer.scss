@@ -1,9 +1,9 @@
 .footer {
-  background-color: #1c2939; // Background color as shown
-  color: #dce0e6; // Text color
+  background-color: #1c2939; 
+  color: #dce0e6;
   padding: 40px 80px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr); // Four sections
+  grid-template-columns: repeat(5, 1fr); 
   gap: 10px;
   font-family: Arial, sans-serif;
 }
@@ -16,19 +16,19 @@
 .footer-section h4 {
   font-size: 1.2rem;
   margin-bottom: 15px;
-  color: #ffffff; // Header color
+  color: #ffffff; 
 }
 
 .footer-section a {
   text-decoration: none;
-  color: #dce0e6; // Link color
+  color: #dce0e6;
   margin-bottom: 10px;
   font-size: 0.9rem;
   transition: color 0.3s ease;
 }
 
 .footer-section a:hover {
-  color: #ffffff; // Hover effect
+  color: #ffffff; 
 }
 
 .footer-logo {
@@ -68,7 +68,7 @@
 
 @media (max-width: 768px) {
   .footer {
-    grid-template-columns: repeat(2, 1fr); // Four sections
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
   }
   .footer-bottom {

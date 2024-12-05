@@ -1,10 +1,9 @@
 import React from "react";
-import "./Footer.scss"; // Include the SCSS file for styling
+import "./Footer.scss"; 
 
 const Footer = () => {
   return (
     <footer className="footer">
-      {/* Platform Section */}
       <div className="footer-section">
         <h4>Platform</h4>
         <a href="#wholesale-commerce">Wholesale Commerce</a>
@@ -16,7 +15,6 @@ const Footer = () => {
         <a href="#integrations">Integrations</a>
       </div>
 
-      {/* Industries Section */}
       <div className="footer-section">
         <h4>Industries</h4>
         <a href="#uniforms">Uniforms, Footwear & Gear</a>
@@ -25,7 +23,6 @@ const Footer = () => {
         <a href="#fasteners">Fasteners</a>
       </div>
 
-      {/* Resources Section */}
       <div className="footer-section">
         <h4>Resources</h4>
         <a href="#blog">Blog</a>
@@ -34,7 +31,6 @@ const Footer = () => {
         <a href="#contact-us">Contact Us</a>
       </div>
 
-      {/* Follow Us Section */}
       <div className="footer-section">
         <h4>Follow Us</h4>
         <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
@@ -51,7 +47,6 @@ const Footer = () => {
         </a>
       </div>
 
-      {/* Logo and Address Section */}
       <div className="footer-logo">
         <img src="https://sellerscommerce.com/wp-content/uploads/2023/04/logo104909.png" alt="SellersCommerce Logo" />
         <p>5600 N River Road, Suite 800</p>

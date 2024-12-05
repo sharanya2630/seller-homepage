@@ -7,7 +7,6 @@
   justify-content: space-between;
   height: 100vh;
 
-  /* Hero Content (Text Section) */
   .hero-content {
     max-width: 50%;
 
@@ -36,7 +35,6 @@
     }
   }
 
-  /* Hero Image Section */
   .hero-image {
     max-width: 50%;
 
@@ -47,23 +45,22 @@
     }
   }
 
-  /* Responsive Design for Mobile View */
   @media (max-width: 768px) {
-    flex-direction: column; /* Stack content vertically */
+    flex-direction: column; 
     justify-content: center;
     gap: 20px;
     padding: 20px;
 
     .hero-content {
-      max-width: 100%; /* Full width */
-      text-align: center; /* Center-align text */
+      max-width: 100%; 
+      text-align: center; 
     }
     p{
       font-size: 14px !important;
     }
 
     .hero-image {
-      max-width: 100%; /* Full width */
+      max-width: 100%; 
     }
   }
 }

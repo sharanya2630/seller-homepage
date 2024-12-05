@@ -92,10 +92,9 @@
       border: 1px solid #1c2230;
     }
   }
-  /* Mobile View */
   @media (max-width: 768px) {
     .testimonial-card {
-      max-width: 100%; /* Full width for mobile view */
+      max-width: 100%;
       padding: 15px;
       flex-direction: column;
       .img-card {
@@ -103,13 +102,13 @@
         flex-direction: column;
       }
       .profile-image {
-        width: 60px; /* Smaller profile image */
+        width: 60px; 
         height: 60px;
       }
 
       .testimonial-content {
         h3 {
-          font-size: 20px; /* Further reduce font size */
+          font-size: 20px; 
         }
 
         h4 {

@@ -1,5 +1,4 @@
-// 
-// CarouselComponent.js
+
 import React from "react";
 import Slider from "react-slick";
 import "./Carousel.scss";
@@ -23,11 +22,11 @@ const Carousel = () => {
         autoplaySpeed: 2000,
         slidesToShow: 5,
         slidesToScroll: 1,
-        arrows: false, // Removes left/right arrows
-        dots: false, // Removes bullets
+        arrows: false,
+        dots: false, 
         responsive: [
           {
-            breakpoint: 768, // Mobile breakpoint
+            breakpoint: 768, 
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
