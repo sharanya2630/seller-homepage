@@ -16,6 +16,7 @@
         width: 50%;
         height: auto;
         border-radius: 8px;
+        object-fit: cover;
       }
     }
   
@@ -24,8 +25,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
     padding: 30px;
-    gap: 3rem;
+    gap: 20px;
   
     .text-section {
       flex: 1;
@@ -38,17 +41,22 @@
       p {
         font-size: 20px;
         color: #666;
+        width: 600px;
       }
   
       .explore-btn {
-        width: 200px;
-        padding: 14px;
-        font-size: 18px;
+        padding: 14px 18px;
+        font-size: 20px;
+        color: #f8961e;
         background-color: transparent;
-        border: 2px solid #e58300;
-        border-radius: 10px;
-        color: #e58300;
-        font-weight: bold;
+        border: 2px solid #f8961e;
+        border-radius: 8px;
+        cursor: pointer;
+  
+        &:hover {
+          color: #192755;
+          border: 2px solid #192755;
+        }
       }
       p{
         font-size: 16px;
@@ -59,8 +67,9 @@
       flex: 1;
   
       img {
-        width: 90%;
+        width: 80%;
         height: auto;
+        margin-left: 20px;
       }
      
     }
@@ -73,6 +82,8 @@
       flex-direction: column;
       text-align: left;
       gap: 20px; 
+      padding-left: 20px;
+      padding-right: 20px;
      
   
       .text-section {
@@ -81,8 +92,13 @@
 
       
       .section-title{
-        font-size: 20px;
-        color: #e58300;
+        font-size: 24px;
+        color: #192755;
+      }
+      p {
+        font-size: 16px;
+        color: #666;
+        width: fit-content;
       }
       .explore-btn {
         visibility: hidden;
@@ -99,18 +115,21 @@
         
         img {
           width: 100%; 
+          margin-left: 0px;
         }
         .explore-btn1 {
-          width: 180px;
-          padding: 14px;
-          font-size: 16px;
+          padding: 14px 18px;
+          font-size: 20px;
+          color: #f8961e;
           background-color: transparent;
-          border: 2px solid #e58300;
-          border-radius: 10px;
-          color: #e58300;
-          font-weight: bold;
-          display: block;
-          visibility: visible;
+          border: 2px solid #f8961e;
+          border-radius: 8px;
+          cursor: pointer;
+    
+          &:hover {
+            color: #192755;
+            border: 2px solid #192755;
+          }
         }
       }
 

@@ -14,6 +14,14 @@ const Carousel = () => {
         "https://www.sellerscommerce.com/wp-content/uploads/2023/05/image-3-1.png",
         "https://www.sellerscommerce.com/wp-content/uploads/2023/05/image-4-1.png",
       ];
+      const imageStyles = [
+        { width: "80%", height: "auto", objectFit: "cover" },
+        { width: "60%", height: "auto", objectFit: "cover" },
+        { width: "60%", height: "auto", objectFit: "contain",marginTop:"-10px" },
+        { width: "60%",height: "auto", objectFit: "cover" },
+        { width: "60%", height: "auto", objectFit: "cover" },
+        { width: "40%",height: "auto", objectFit: "cover" },
+      ];
     
       const settings = {
         infinite: true,
@@ -34,6 +42,7 @@ const Carousel = () => {
           },
         ],
       };
+     
     
       return (
         <div>
@@ -43,7 +52,8 @@ const Carousel = () => {
           <Slider {...settings}>
             {images.map((image, index) => (
               <div key={index} className="carousel-slide">
-                <img src={image} alt={`Slide ${index + 1}`} />
+                <img src={image} alt={`Slide ${index + 1}`}style={imageStyles[index]} 
+                />
               </div>
             ))}
           </Slider>
@@ -54,7 +64,7 @@ const Carousel = () => {
              src="https://www.sellerscommerce.com/wp-content/uploads/2023/09/Demo-image.webp"
              alt="Demo"
            />
-                    <button className="explore-btn1">Explore Plotform</button>
+          <button className="explore-btn1">Explore Plotform</button>
 
          </div>
 
